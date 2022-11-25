@@ -1,6 +1,7 @@
 import './style.css'
 
 import main from './main.png'
+
 const Home = () => {
   return (
     <div className="home-container">
@@ -22,6 +23,7 @@ const Home = () => {
         </div>
 
       </div>
+      
     </div>
   )
 
