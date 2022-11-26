@@ -8,7 +8,7 @@ const Footer = ()=> {
      return(
   
         <footer className='main-footer'>
-          <p className="footer-title">Aplicativo desenvolvido Por: Igor Marques</p>
+          <p className="footer-title">Siga nossas redes sociais.</p>
           <div className="footer-icons">
             <Instagram/>
             <Linkedin/>

@@ -1,6 +1,8 @@
 import './style.css'
 
 import main from './main.png'
+import { Link } from 'react-router-dom';
+import Footer from '../Footer';
 
 const Home = () => {
   return (
@@ -15,7 +17,7 @@ const Home = () => {
             agora no conforto da sua casa! <br />
             Quem disse que é preciso sair para comer bem?
           </h3>
-          <a href="#" className="home-btn-order">PEÇA JÀ !!!</a>
+          <Link to="/orders" className="home-btn-order">PEÇA JÀ !!!</Link>
         </div>
         <div className="home-image">
 
@@ -23,7 +25,7 @@ const Home = () => {
         </div>
 
       </div>
-      
+       <Footer/>
     </div>
   )
 
