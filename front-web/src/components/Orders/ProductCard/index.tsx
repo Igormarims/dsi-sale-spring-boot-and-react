@@ -1,5 +1,5 @@
 
-import { Product } from '../../../model/Product'
+import { Product } from '../../../model/types'
 
  type Props = {
     products: Product

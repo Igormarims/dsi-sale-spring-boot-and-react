@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Product } from "../../../model/Product";
+import { Product } from "../../../model/types";
 import ProductCard from "../ProductCard";
  
 type Props = {
